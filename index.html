@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="index.js"></script>
+    <script src="alert.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <!--Loader-->
+    <div class="windows8">
+        <div class="wBall" id="wBall_1">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_2">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_3">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_4">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_5">
+            <div class="wInnerBall"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Displays the informations/text after the loader-->
+
+    <body onload="myFunction()" style="margin:0;">
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            <h1 class="first">Form</h1>
+            <br>
+            <form action="submission.html">
+                <label for="name" style="color: black; font-family: 'Poppins', sans-serif;">Name:</label>
+                <input type="text" name="name" id="name" style="color: black; font-family: 'Poppins', sans-serif;">
+                <label for="lname" style="color: black; font-family: 'Poppins', sans-serif;">Last Name:</label>
+                <input type="lname" name="lname" id="lname" style="color: black; font-family: 'Poppins', sans-serif;">
+                <label for="ffood" style="color: black; font-family: 'Poppins', sans-serif;">Favorite Food:</label>
+                <input type="text" name="ffood" id="ffood" style="color: black; font-family: Acre">
+                <label for="fgame" style="color: black; font-family: 'Poppins', sans-serif;">Favorite Game:</label>
+                <textarea name="fgame" cols="30" rows="1" style="color: black; font-family: 'Poppins', sans-serif;"></textarea>
+                <label for="fsport" style="color: black; font-family: 'Poppins', sans-serif;">Favorite Sports:</label>
+                <textarea name="fsport" cols="30" rows="1" style="color: black; font-family: 'Poppins', sans-serif;"></textarea>
+                <label for="fpet" style="color: black; font-family: 'Poppins', sans-serif;">Favorite Pet:</label>
+                <textarea name="fpet" cols="30" rows="1" style="color: black; font-family: 'Poppins', sans-serif;"></textarea>
+                <label for="fsong" style="color: black; font-family: 'Poppins', sans-serif;">Favorite Song:</label>
+                <textarea name="fsong" cols="30" rows="1" style="color: black; font-family: 'Poppins', sans-serif;"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
